@@ -1,5 +1,5 @@
 {
-  "name": "SafeHavn",
+  "name": "davids-auth-template",
   "version": "1.0.0",
   "description": "== README",
   "main": "index.js",
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qydchen/SafeHavn.git"
+    "url": "git+https://github.com/qydchen/davids-auth-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/qydchen/SafeHavn/issues"
+    "url": "https://github.com/qydchen/davids-auth-template/issues"
   },
-  "homepage": "https://github.com/qydchen/SafeHavn#readme",
+  "homepage": "https://github.com/qydchen/davids-auth-template#readme",
   "dependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.0.0",

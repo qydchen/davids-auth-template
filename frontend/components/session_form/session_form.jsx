@@ -87,7 +87,7 @@ class SessionForm extends React.Component {
       return (
         <div className="va-container va-container-h">
           <span className="switch-to">
-            <div className="account-txt">Already have a SafeHavn account? </div>
+            <div className="account-txt">Already have a davids-auth-template account? </div>
           </span>
           <span className="switch" onClick={() => this.clearErrorsAndOpenModal(<SessionFormContainer formType="login"/>)}>
             <div className="register-txt"> Log In </div>
@@ -99,7 +99,7 @@ class SessionForm extends React.Component {
       return (
         <div className="va-container va-container-h">
           <span className="switch-to">
-            <div className="account-txt">Don't have a SafeHavn account? </div>
+            <div className="account-txt">Don't have a davids-auth-template account? </div>
           </span>
           <span className="switch" onClick={() => this.clearErrorsAndOpenModal(<SessionFormContainer formType="signup"/>)}>
             <div className="register-txt"> Sign Up </div>
@@ -229,7 +229,7 @@ class SessionForm extends React.Component {
           <div className="subscribe-img">
             <input type="checkbox" className="subbox-input"/>
           </div>
-          <div className="subscribe-info"> I'd like to receive information about SafeHavn and David Chen. </div>
+          <div className="subscribe-info"> I'd like to receive information about davids-auth-template and David Chen. </div>
         </label>
           <div className="disclaimer"> By clicking on Sign up, I agree to consider David Chen for potential employment opportunities.</div>
         </div>
