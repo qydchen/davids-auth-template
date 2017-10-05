@@ -38,12 +38,6 @@ class Header extends React.Component {
     if (!this.props.currentUser) {
       return (
         <div className="auth-btns">
-          <div className ="header-enter">
-            <span> Become a Host </span>
-          </div>
-          <div className ="header-enter">
-            <span> Help </span>
-          </div>
           <div className ="header-enter" onClick={() => this.clearErrorsAndOpenModal(
             <SessionFormContainer formType="signup"/>)}>
             <span> Sign Up </span>
