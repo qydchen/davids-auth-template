@@ -1,6 +1,4 @@
-
-
-.HeaderBar {
+.header-bar {
   display: flex !important;
   position: absolute !important;
   width: 100% !important;
@@ -12,8 +10,8 @@
   justify-content: space-between;
 }
 
-.Logo {
-  background-image: asset-url('davids-auth-template.png');
+.logo {
+  background-image: asset-url('logo.png');
   display: block;
   height: 34px;
   width: 34px;
@@ -21,11 +19,11 @@
   box-sizing: border-box;
 }
 
-.Logo:hover {
+.logo:hover {
   cursor: pointer !important;
 }
 
-.AuthButtons {
+.auth-btns {
   background: transparent !important;
   display: flex;
   align-items: center;

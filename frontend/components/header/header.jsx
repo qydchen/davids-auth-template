@@ -25,7 +25,7 @@ class Header extends React.Component {
   loggedInHeader() {
     if (this.props.currentUser) {
       return (
-        <div className="AuthButtons">
+        <div className="auth-btns">
           <div className="SignOutButton">
             <span onClick={this.handleClick}>Sign Out</span>
           </div>
@@ -37,7 +37,7 @@ class Header extends React.Component {
   logInHeader() {
     if (!this.props.currentUser) {
       return (
-        <div className="AuthButtons">
+        <div className="auth-btns">
           <div className ="header-enter">
             <span> Become a Host </span>
           </div>
@@ -92,9 +92,9 @@ class Header extends React.Component {
 
   render(){
     return (
-      <div className ="HeaderBar">
+      <div className ="header-bar">
         <div className="left">
-          <a className="Logo" onClick={() => this.props.history.push("/")} ></a>
+          <a className="logo" onClick={() => this.props.history.push("/")} ></a>
         </div>
         {this.filterHeader()}
         {this.logInHeader()}
